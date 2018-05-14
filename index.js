@@ -15,7 +15,6 @@ function currentLine(katzDeliLine) {
   const line = [];
   
   if (katzDeliLine.length > 0) {
-    //start with 3 people based on Katz Deli Line 
     for (let i = 0, n = katzDeliLine.length; i < n; i++) {
       line.push(`${i + 1}. ${katzDeliLine[i]}`)
     }
